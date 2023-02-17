@@ -1,11 +1,7 @@
 function App() {
   return (
     <div>
-      <header>
-      <h1 class="text-3xl font-bold underline">
-          Hello world!
-      </h1>
-      </header>
+      <h1 className="text-center">Bee Love Apiaries</h1>
     </div>
   );
 }
