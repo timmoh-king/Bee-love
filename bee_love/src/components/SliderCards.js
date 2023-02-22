@@ -28,8 +28,8 @@ const SliderCards = ({
               bgColor ? bgColor : ""
             }`}
           >
-            <p className="font-md text-[18px]">{imgTitle}</p>
-            <p className="text-gray-700 text-[15px]">{imgDescription}</p>
+            <p className="font-md text-[14px] md:text-[17px]">{imgTitle}</p>
+            <p className="text-gray-700 text-[12px] md:text-[15px]">{imgDescription}</p>
           </div>
         </div>
       ) : (
@@ -38,10 +38,10 @@ const SliderCards = ({
             <BsChatLeftQuoteFill className="fill-dark_brown" />
           </div>
 
-          <h2 className="font-md text-center text-xl mt-2">{userName}</h2>
+          <h2 className="font-md text-center text-[14px] md:text-[17px] mt-2">{userName}</h2>
 
           <div className="mt-1 text-center">
-            <p className="text-gray-700 mx-2 text-[15px]">{testimonial}</p>
+            <p className="text-gray-700 mx-2 text-[12px] md:text-[15px]">{testimonial}</p>
           </div>
 
           <div
@@ -50,12 +50,12 @@ const SliderCards = ({
             }`}
           >
             <div className="">
-              <p className="text-white font-medium text-[16px] text-start leading-none">
+              <p className="text-white font-medium text-[12px] md:text-[16px] text-start leading-none">
                 {branchName}
               </p>
             </div>
             <div className="">
-              <p className="text-white font-medium text-[16px] text-end leading-none">
+              <p className="text-white font-medium text-[12px] md:text-[16px] text-end leading-none">
                 {countyName}
               </p>
             </div>
