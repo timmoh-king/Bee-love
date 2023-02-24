@@ -8,7 +8,7 @@ const Button = ({isButtonSmall, buttonText, onClick}) => {
         {buttonText}
       </button> 
       : 
-      <button className='block p-3 px-6 pt-1 h-[32px] w-[320px] md:w-[467px] text-white text-sm md:text-base rounded-[5px] baseline bg-dark_brown hover:bg-brown' onClick={onClick}>{buttonText}</button>}
+      <button className='p-3 px-6 pt-1 h-[32px] w-[478px] md:w-[312px] lg:w-[505px] text-white text-sm md:text-base rounded-[5px] baseline bg-dark_brown hover:bg-brown' onClick={onClick}>{buttonText}</button>}
     </div>
   )
 }
