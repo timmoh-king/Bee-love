@@ -24,7 +24,7 @@ const SliderCards = ({
             alt={alt}
           />
           <div
-            className={`p-6 flex flex-col justify-between min-h-[205px] bg-yellow ${
+            className={`p-6 flex flex-col justify-between min-h-[205px] ${
               bgColor ? bgColor : ""
             }`}
           >
@@ -45,7 +45,7 @@ const SliderCards = ({
           </div>
 
           <div
-            className={`flex flex-row justify-between bg-orange min-h-[145px] items-center mt-4 p-4 ${
+            className={`flex flex-row justify-between min-h-[145px] items-center mt-4 p-4 ${
               bgColor ? bgColor : ""
             }`}
           >

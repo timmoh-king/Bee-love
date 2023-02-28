@@ -50,7 +50,7 @@ const Webpage = () => {
         </Carousel>
         </div>
       </div>
-      <div className='mt-8 md:mt-12 lg:mt-24 container'>
+      <div className='mt-8 md:mt-12 lg:mt-18 container'>
       <div className="flex flex-col items-center lg:flex-row">
          <About title="Mission" description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types" />
          <About title="Values" description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types" />
@@ -60,34 +60,36 @@ const Webpage = () => {
       <div className='mt-8 md:mt-12 lg:mt-24 container'>
         <p className={headings}>What we do?</p>
         <div>
-        <Carousel className='items-center' responsive={responsive} showDots={true} autoPlaySpeed={1000}>
-            <SliderCards isProduct={true} imgsrc="honey4.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-orange" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-yellow" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-brown" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 4" bgColor="bg-background-brown" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+        <Carousel className='items-center' responsive={responsive} showDots={true} autoPlaySpeed={1000} removeArrowOnDeviceType={["mobile"]}>
+            <SliderCards isProduct={true} imgsrc="honey4.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-yellow`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-brown`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 4" bgColor={`bg-orange`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-brown`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 4" bgColor={`bg-yellow`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
         </Carousel>
       </div>
       </div>
       <div className='mt-8 md:mt-12 lg:mt-24 container bg-background-3'>
         <p className={headings}>What do we sell?</p>
         <div>
-        <Carousel responsive={responsive} showDots={true} autoPlaySpeed={1000}>
-            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-orange" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-yellow" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey4.jpg" alt="image" imgTitle="Honey 2" bgColor="bg-background-brown" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
-            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 4" bgColor="bg-background-brown" imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+        <Carousel responsive={responsive} showDots={true} autoPlaySpeed={1000} removeArrowOnDeviceType={["mobile"]}>
+            <SliderCards isProduct={true} imgsrc="honey6.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-brown`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey4.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-orange`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-yellow`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey4.jpg" alt="image" imgTitle="Honey 2" bgColor={`bg-orange`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
+            <SliderCards isProduct={true} imgsrc="honey1.jpg" alt="image" imgTitle="Honey 4" bgColor={`bg-brown`} imgDescription="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types"  />
         </Carousel>
       </div>
       </div>
       <div className='mt-8 md:mt-12 lg:mt-24 container'>
         <p className={headings}>What are people saying?</p>
         <div>
-        <Carousel responsive={responsive} showDots={true} autoPlaySpeed={1000}>
-            <SliderCards isProduct={false} userName="John Doe" branchName="Makindu" countyName="Makueni" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
-            <SliderCards isProduct={false} userName="Bush Lincon" branchName="Ololua" countyName="Kajiado" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
-            <SliderCards isProduct={false} userName="Joel Gitonga" branchName="CBD-Town" countyName="Nairobi" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
-            <SliderCards isProduct={false} userName="Atieno Otieno" branchName="Mlolongo" countyName="Machakos" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
-            <SliderCards isProduct={false} userName="John Akinyi" branchName="Limuru" countyName="Kiambu" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
+        <Carousel responsive={responsive} showDots={true} autoPlaySpeed={1000} removeArrowOnDeviceType={["mobile"]}>
+            <SliderCards isProduct={false} bgColor={`bg-orange`} userName="John Doe" branchName="Makindu" countyName="Makueni" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
+            <SliderCards isProduct={false} bgColor={`bg-yellow`} userName="Bush Lincon" branchName="Ololua" countyName="Kajiado" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
+            <SliderCards isProduct={false} bgColor={`bg-brown`} userName="Joel Gitonga" branchName="CBD-Town" countyName="Nairobi" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
+            <SliderCards isProduct={false} bgColor={`bg-orange`} userName="Atieno Otieno" branchName="Mlolongo" countyName="Machakos" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
+            <SliderCards isProduct={false} bgColor={`bg-yellow`} userName="John Akinyi" branchName="Limuru" countyName="Kiambu" testimonial = "To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash shell actually works. There are different types" />
         </Carousel>
         </div>
       </div>
