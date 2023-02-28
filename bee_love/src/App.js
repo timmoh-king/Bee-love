@@ -1,4 +1,4 @@
-import Webpage from "./components/Navbar";
+import Webpage from "./Webpage";
 
 function App() {
   return (
