@@ -1,7 +1,9 @@
+import Webpage from "./components/Navbar";
+
 function App() {
   return (
     <div>
-      <h1 className="text-center">Bee Love Apiaries</h1>
+      <Webpage />
     </div>
   );
 }
