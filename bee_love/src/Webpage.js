@@ -38,8 +38,9 @@ const Webpage = () => {
       };
   return (
     <div>
+      <section id="/">
       <div className='flex flex-col bg-gradient-to-b from-background-1 to-white'>
-          <Navbar />
+          <Navbar home="/" about="/about" products="/products" services="/services" testimonial="/testimonial" contact="/contact" />
         <div>
         <Carousel showDots={true} autoPlaySpeed={1000} responsive={landingResponsive}>
             <Homepage title="Lorem Ipsum" imgsrc="honey10.png" alt="image" description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types" />
@@ -50,6 +51,10 @@ const Webpage = () => {
         </Carousel>
         </div>
       </div>
+      </section>
+
+      <section id="about">
+      <div className='bg-background-2 pt-2 pb-8'>
       <div className='mt-8 md:mt-12 lg:mt-18 container'>
       <div className="flex flex-col items-center lg:flex-row">
          <About title="Mission" description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types" />
@@ -57,6 +62,10 @@ const Webpage = () => {
          <About title="Vision" description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types" />
       </div>
       </div>
+      </div>
+      </section>
+
+      <section id="products">
       <div className='mt-8 md:mt-12 lg:mt-24 container'>
         <p className={headings}>What we do?</p>
         <div>
@@ -69,7 +78,11 @@ const Webpage = () => {
         </Carousel>
       </div>
       </div>
-      <div className='mt-8 md:mt-12 lg:mt-24 container bg-background-3'>
+      </section>
+
+      <section id='services'>
+      <div className='bg-background-3 pb-6'>
+      <div className='mt-8 md:mt-12 lg:mt-24 container'>
         <p className={headings}>What do we sell?</p>
         <div>
         <Carousel responsive={responsive} showDots={true} autoPlaySpeed={1000} removeArrowOnDeviceType={["mobile"]}>
@@ -81,6 +94,10 @@ const Webpage = () => {
         </Carousel>
       </div>
       </div>
+      </div>
+      </section>
+
+      <section id='testimonial'>
       <div className='mt-8 md:mt-12 lg:mt-24 container'>
         <p className={headings}>What are people saying?</p>
         <div>
@@ -93,15 +110,19 @@ const Webpage = () => {
         </Carousel>
         </div>
       </div>
-      <div className='mt-14 md:mt-18 lg:mt-24 container items-center bg-background-2'>
+      </section>
+
+      <section id='contact'>
+      <div className='mt-14 md:mt-18 lg:mt-24 pb-4 w-full items-center bg-background-3'>
       <p className={headings}>Contact us</p>
       <div>
         <ContactUs />
       </div>
       </div>
-      <div className='mt-6 bg-background-4'>
+      <div className='bg-background-4'>
         <Footer />
       </div>
+      </section>
     </div>
   )
 }

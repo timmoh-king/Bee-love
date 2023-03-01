@@ -9,10 +9,10 @@ const ContactUs = () => {
   return (
     <div className='container grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-4 flex-col md:flex-row-reverse'>
       <div className='items-center justify-center md:justify-start space-y-2'>
-        <input type="text" className='text-center text-black text-[12px] md:text-[15px] w-full h-[65px] md:h-[130px] lg:h-[260px] rounded-md border border:brown focus:ring-yellow' placeholder='write a message' />  
+        <input type="text" className='text-center text-black text-[12px] md:text-[15px] w-full h-[95px] md:h-[130px] lg:h-[260px] rounded-md border border:brown focus:ring-yellow' placeholder='write a message' />  
         <Button isButtonSmall={false} buttonText="send" />
       </div>
-      <div className='mt-4 mx-2 md:mt-8 lg:mt-20 ml-10'>
+      <div className='mt-4 mx-2 md:mt-8 lg:mt-20 md:ml-10'>
         <ul className='flex flex-col space-y-2 md:space-y-3 lg:space-y-4'>
             <li className={list}>
                 <BsFillChatDotsFill className={icon}/>

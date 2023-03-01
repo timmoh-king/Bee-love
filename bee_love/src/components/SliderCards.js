@@ -17,7 +17,7 @@ const SliderCards = ({
   return (
     <>
       {isProduct ? (
-        <div className="bg-white max-w-sm min-h-[505px] shadow rounded-md overflow-hidden mx-2">
+        <div className="bg-white md:max-w-sm min-h-[505px] shadow rounded-md overflow-hidden mx-2">
           <img
             className="h-[300px] w-full object-cover"
             src={imgsrc}
@@ -28,12 +28,12 @@ const SliderCards = ({
               bgColor ? bgColor : ""
             }`}
           >
-            <p className="font-md text-[14px] md:text-[17px]">{imgTitle}</p>
+            <p className="font-semibold text-white text-[14px] md:text-[16px] lg:text-[18px]">{imgTitle}</p>
             <p className="text-gray-700 text-[12px] md:text-[15px]">{imgDescription}</p>
           </div>
         </div>
       ) : (
-        <div className="flex flex-col max-w-sm min-h-[505px] justify-between shadow rounded-md overflow-hidden mx-2 bg-background-5">
+        <div className="flex flex-col md:max-w-sm min-h-[455px] justify-between shadow rounded-md overflow-hidden mx-2 bg-background-4">
           <div className="flex flex-row mt-4 mb-3 mx-3 p-1 items-center h-[26px] justify-end">
             <BsChatLeftQuoteFill className="fill-dark_brown" />
           </div>
