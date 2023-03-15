@@ -4,6 +4,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import About from "../common/About";
 import Navbar from "../common/Navbar";
+import Footer from "../common/Footer";
 
 const Aboutpage = () => {
   const landingResponsive = {
@@ -16,7 +17,6 @@ const Aboutpage = () => {
   return (
     <div>
       <div className="flex flex-col bg-gradient-to-b from-background-1 to-white">
-        <Navbar />
         <div>
           <Carousel
             showDots={true}
@@ -92,6 +92,10 @@ const Aboutpage = () => {
             />
           </div>
         </div>
+      </div>
+
+      <div className="bg-background-4 mt-4 md:mt-6 lg:mt-8">
+        <Footer />
       </div>
     </div>
   );

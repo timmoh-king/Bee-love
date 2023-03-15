@@ -1,4 +1,5 @@
 import { Route, Routes } from "react-router-dom";
+import Navbar from "./components/common/Navbar";
 import Aboutpage from "./components/pages/Aboutpage";
 import Contactpage from "./components/pages/Contactpage";
 import Productpage from "./components/pages/Productpage";
@@ -9,6 +10,7 @@ import Webpage from "./components/pages/Webpage";
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
       <Route path="/" element={<Webpage />} />
         <Route path="about" element={<Aboutpage />} />
