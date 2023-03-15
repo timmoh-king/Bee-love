@@ -39,7 +39,6 @@ const Servicespage = () => {
   return (
     <div>
       <div className="flex flex-col bg-gradient-to-b from-background-1 to-white">
-        <Navbar />
         <div>
           <Carousel
             showDots={true}
