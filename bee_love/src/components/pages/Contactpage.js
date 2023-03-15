@@ -1,7 +1,6 @@
 import React from 'react'
 import ContactUs from "../common/ContactUs";
 import Footer from "../common/Footer";
-import Navbar from '../common/Navbar';
 
 const Contactpage = () => {
   return (

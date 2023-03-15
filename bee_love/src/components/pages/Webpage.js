@@ -2,33 +2,10 @@ import React from 'react';
 import Homepage from '../common/Homepage';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import Navbar from '../common/Navbar';
-import About from "../common/About";
-import SliderCards from "../common/SliderCards";
-import ContactUs from "../common/ContactUs";
 import Footer from "../common/Footer";
 
 const Webpage = () => {
     const headings = 'flex-row text-center py-3 md:py-4 lg:py-6 text-dark_brown font-bold text-xl'
-    const responsive = {
-        superLargeDesktop: {
-          // the naming can be any, depends on you.
-          breakpoint: { max: 4000, min: 3000 },
-          items: 5
-        },
-        desktop: {
-          breakpoint: { max: 3000, min: 1024 },
-          items: 3
-        },
-        tablet: {
-          breakpoint: { max: 1024, min: 604 },
-          items: 2
-        },
-        mobile: {
-          breakpoint: { max: 604, min: 0 },
-          items: 1
-        }
-      };
       const landingResponsive = {
         superLargeDesktop: {
           // the naming can be any, depends on you.

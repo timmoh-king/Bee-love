@@ -2,7 +2,6 @@ import React from "react";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Homepage from "../common/Homepage";
-import Navbar from "../common/Navbar";
 import SliderCards from "../common/SliderCards";
 import Footer from "../common/Footer";
 

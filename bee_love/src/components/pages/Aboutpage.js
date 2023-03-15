@@ -3,7 +3,6 @@ import Homepage from "../common/Homepage";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import About from "../common/About";
-import Navbar from "../common/Navbar";
 import Footer from "../common/Footer";
 
 const Aboutpage = () => {
