@@ -1,4 +1,4 @@
-import Webpage from "./Webpage";
+import Webpage from "./components/pages/Webpage";
 
 function App() {
   return (
