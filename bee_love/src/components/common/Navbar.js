@@ -1,5 +1,7 @@
 import React from 'react'
+import "../../index.css"
 import { Link, NavLink } from "react-router-dom";
+import { BsToggles } from 'react-icons/bs';
 
 const Navbar = ({to}) => {
     const navlinks = "text-center text-dark_brown text-normal font-[450] hover:text-orange hover:text-[18px] hover:font-[500]"
