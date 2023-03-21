@@ -44,19 +44,19 @@ const Productpage = () => {
             responsive={landingResponsive}
           >
             <Homepage
-              title="Lorem Ipsum"
+              title="Product page"
               imgsrc="honey10.png"
               alt="image"
               description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types"
             />
             <Homepage
-              title="Lorem Ipsum"
+              title="Product page"
               imgsrc="honey9.png"
               alt="image"
               description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types"
             />
             <Homepage
-              title="Lorem Ipsum"
+              title="Product page"
               imgsrc="honey11.png"
               alt="image"
               description="To be able to appreciate this functionality of the shell, you have to get a good understanding of how the Bash To be able to appreciate this functionality of the shell, shell actually works. There are different types"
